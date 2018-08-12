@@ -18,7 +18,7 @@
 #include "LevelOrderIterator.h"
 
 AVL_Tree::AVL_Tree() {
-	root_ = nullptr;
+  root_ = nullptr;
 	std::map<std::string, int> species_count_;
 }
 
@@ -188,8 +188,6 @@ int AVL_Tree::height(BinaryNode<Tree>* node) const {
 		return 0;
 	}
 	return node->height;
-	//	this line is responsible for tree creation taking so long before
-	//return std::max(height(node->left_child), height(node->right_child)) + 1;
 }
 
 const Tree& AVL_Tree::find(const Tree& x, BinaryNode<Tree>* node) const {
