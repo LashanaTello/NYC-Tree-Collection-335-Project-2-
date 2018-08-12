@@ -18,7 +18,7 @@
 #include "LevelOrderIterator.h"
 
 AVL_Tree::AVL_Tree() {
-  root_ = nullptr;
+ 	root_ = nullptr;
 	std::map<std::string, int> species_count_;
 }
 
