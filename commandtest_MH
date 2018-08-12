@@ -1,0 +1,9 @@
+tree_info  oak
+tree_info linden
+tree_info  honeylocust
+listall_inzip   10065
+listall_inzip   10002
+listall_inzip   10003
+list_near  40.71846392  -73.98291922  0.05
+list_near  40.71846392  -73.98291922  0.2
+list_near  40.78614958  -73.97115239  0.025

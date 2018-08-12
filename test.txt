@@ -1,0 +1,15 @@
+tree_info oak
+tree_info london
+tree_info linden
+listall_names
+listall_inzip 11432
+listall_inzip 11691
+tree_info maple
+list_near 40.77499266 -73.92203675 0.25
+list_near 40.77499266 -73.92203675 0.5
+list_near 40.77499266 -73.92203675 5
+tree_info honeylocust
+tree_info red oak
+listthesenuts
+tree_info gassy
+tree_info 
