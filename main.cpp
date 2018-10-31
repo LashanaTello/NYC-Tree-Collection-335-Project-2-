@@ -3,24 +3,24 @@
   Author         : Lashana Tello
   Created on     : March 4, 2018
   Description    : Given two input files from the command line (the first is a 
-									 csv document containing a tree and its information on each 
-									 line from the 2015 NYC Tree Census and the other is a list 
-									 of commands to execute with one command on each line), a 
-									 TreeCollection object will be created and each tree from the 
-									 census file will be inserted into the TreeCollection object. 
-									 The TreeCollection object will then execute each command in 
-									 the command file. A Command object is used to parse the file 
-									 containing the list of commands, and get each command and its 
-									 arguments from each line. The arguments are then given to the 
-									 TreeCollection object method that corresponds to each command 
-									 and the command is executed.									 
+		   						 csv document containing a tree and its information on each 
+		   						 line from the 2015 NYC Tree Census and the other is a list 
+		   					   of commands to execute with one command on each line), a 
+		   						 TreeCollection object will be created and each tree from the 
+		   						 census file will be inserted into the TreeCollection object. 
+		   						 The TreeCollection object will then execute each command in 
+		   						 the command file. A Command object is used to parse the file 
+		   						 containing the list of commands, and get each command and its 
+		   						 arguments from each line. The arguments are then given to the 
+		   						 TreeCollection object method that corresponds to each command 
+		   						 and the command is executed.									 
   Purpose        : To store the contents of a 2015 NYC Tree Census file in an 
-									 object that represents a database and answer specific user 
-									 queries pertaining to the database 
+		   						 object that represents a database and answer specific user 
+		   						 queries pertaining to the database 
   Usage          : When running, provide two input files, the NYC Tree Census 
-									 file and a file with a list of commands, respectively
+		   						 file and a file with a list of commands, respectively
   Build with     : g++ -std=c++11 -o main main.cpp tree.cpp avl.cpp 
-									 tree_collection.cpp tree_species.o command.o
+		  						 tree_collection.cpp tree_species.o command.o
   Modifications  : 
  
 *******************************************************************************/
