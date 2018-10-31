@@ -101,6 +101,7 @@ int main(int argc, char* argv[]) {
 
 		tree_file.close();
 		command_file.close();
+    
 	} else if (3 < argc) {
 		std::cerr << "ERROR: Too many arguments provided. ";
 		std::cerr << "You must provide one input file and one command file, ";
