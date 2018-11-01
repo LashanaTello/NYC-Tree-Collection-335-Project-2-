@@ -1,4 +1,4 @@
-# Project: NYC Tree Collection
+# Project 2: NYC Tree Collection
 ## CSCI 335
 
 This project can be viewed [here](http://www.compsci.hunter.cuny.edu/~sweiss/course_materials/csci335/assignments/project2.pdf).
